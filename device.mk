@@ -115,7 +115,8 @@ PRODUCT_PACKAGES += \
     android.frameworks.sensorservice@1.0.vendor \
     android.hardware.camera.provider@2.4-impl:32 \
     android.hardware.camera.provider@2.4-service \
-    libxml2
+    libxml2 \
+    vendor.qti.hardware.camera.device@1.0:64
 
 # Device settings
 PRODUCT_PACKAGES += \
