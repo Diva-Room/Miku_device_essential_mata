@@ -437,12 +437,3 @@ PRODUCT_PACKAGES += \
     libwpa_client \
     wpa_supplicant \
     wpa_supplicant.conf
-
-# Wifi Display
-PRODUCT_PACKAGES += \
-    libaacwrapper \
-    libmediaextractorservice \
-    libnl
-
-#PRODUCT_BOOT_JARS += \
-#   WfdCommon
