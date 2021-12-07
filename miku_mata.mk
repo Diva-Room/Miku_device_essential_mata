@@ -1,3 +1,6 @@
+# Maintaier
+MIKU_MASTER := Undying
+
 # Inherit some common Miku UI stuff.
 $(call inherit-product, vendor/miku/build/product/miku_product.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)

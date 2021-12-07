@@ -15,7 +15,10 @@
 #
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += device/essential/mata/overlay
+DEVICE_PACKAGE_OVERLAYS += \
+    device/essential/mata/overlay \
+    device/essential/mata/overlay-miku
+
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
 # AAPT
