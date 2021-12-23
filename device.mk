@@ -104,7 +104,7 @@ PRODUCT_COPY_FILES += \
     device/essential/mata/configs/camera/imx258_mono_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx258_mono_chromatix.xml
 
 PRODUCT_PACKAGES += \
-    android.frameworks.displayservice@1.0_32 \
+    android.frameworks.displayservice@1.0.vendor \
     android.hardware.camera.provider@2.4-impl:32 \
     android.hardware.camera.provider@2.4-service \
     libxml2
@@ -137,7 +137,7 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.1
+    android.hardware.biometrics.fingerprint@2.1.vendor
 
 PRODUCT_COPY_FILES += \
     device/essential/mata/keylayout/Vendor_2e17_Product_a001.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_2e17_Product_a001.kl \
