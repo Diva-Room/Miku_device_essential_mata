@@ -73,7 +73,7 @@
 </hal>
 <hal format="hidl" optional="true">
     <name>android.hardware.drm</name>
-    <version>1.0-2</version>
+    <version>1.0-4</version>
     <interface>
         <name>ICryptoFactory</name>
         <instance>default</instance>
