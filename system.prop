@@ -44,6 +44,9 @@ telephony.lteOnCdmaDevice=1
 ro.recovery.ui.margin_height=136
 ro.recovery.ui.margin_width=64
 
+# Set rendering pipeline mode to OpenGL
+debug.hwui.renderer=skiagl
+
 # SurfaceFlinger
 debug.sf.early_phase_offset_ns=1500000
 debug.sf.early_app_phase_offset_ns=1500000
