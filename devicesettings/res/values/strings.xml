@@ -16,6 +16,9 @@
 -->
 
 <resources>
+    <!-- Device specific settings -->
+    <string name="device_settings_app_name">Advanced settings</string>
+    
     <string name="touchscreen_settings_title">Touchscreen</string>
     <string name="touchscreen_settings_summary">Grip rejection and smoothing</string>
 
