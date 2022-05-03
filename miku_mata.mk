@@ -1,4 +1,4 @@
-# Maintaier
+# Maintainer
 MIKU_MASTER := AmeChan
 
 # MikuUI COMMUNITY
